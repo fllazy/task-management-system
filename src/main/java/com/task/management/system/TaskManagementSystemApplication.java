@@ -1,4 +1,4 @@
-package com.task.management.system.back;
+package com.task.management.system;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
