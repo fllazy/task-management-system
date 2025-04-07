@@ -7,7 +7,6 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 @Service
-
 public class UserService {
     private final UserRepository userRepository;
 
@@ -30,6 +29,7 @@ public class UserService {
 
         return save(user);
     }
+
 
     public User getByUsername(String username) {
         return userRepository.findByUsername(username)
